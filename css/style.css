@@ -1,0 +1,187 @@
+#imageProfil {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+
+
+
+
+/* NAVVV */
+#logo {
+    height: 50px;
+    width: 60px;
+}
+
+#result,
+#result2 {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: #9d9d9d;
+}
+
+#result a,
+#result2 a {
+    text-decoration: none;
+    color: #000000;
+  }
+  @media screen and (max-width: 991px) {
+    #result {
+        top: 330px;
+    }
+}
+
+/* FIN DE NAV */
+/* INDEX */
+#mainIndex{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+/* CAROUSEL1 */
+
+.carousel-item {
+    height: 60vh;
+    }
+    
+    .carousel-item img {
+       height: 100%;
+        /* permet de fiter l'image au conteneur */
+        object-fit: cover;
+        /* pour que l'image fit avec le conteneur */
+        margin: auto;
+        /* pour centrer */
+    }
+    
+    /* CAROUSEL2 */
+    .scroll_card {
+        position: relative;
+    }
+    
+    .nouveaute {
+        position: absolute;
+        text-align: center;
+        top: 2%;
+        left: 2%;
+        z-index: 2;
+        background-color: #fff;
+    }
+    
+    .scroll_container {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        gap: 10px;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .scroll_bloc {
+        margin: 13vh 4vh;
+    }
+    
+    .scroll_container::-webkit-scrollbar {
+        height: 0.5vh;
+        background: white;
+    }
+    
+    .scroll_container::-webkit-scrollbar-thumb {
+        background: #f5d0b9;
+        border-radius: 2px;
+        max-width: 10vw;
+        width: 100%;
+    }
+    
+    .scroll_container::-webkit-scrollbar-thumb:hover {
+        background: #dbae92;
+    }
+    
+    
+    
+    .scroll_bloc h2 {
+        margin-left: 5vh;
+        font-size: 30px;
+        opacity: 0.9;
+    }
+    
+    .imgArticles {
+        max-height: 95%;
+        min-width: 190px;
+        max-width: 300px;
+        margin-bottom: 0;
+        transition: transform .4s;
+    }
+    
+    
+    .imgArticles:hover {
+    
+        cursor: pointer;
+        transform: scale(1.08);
+        border: 1px solid white;
+    }
+    
+    @media (max-width: 400px) {
+        .scroll_container {
+            padding-left: 2vw;
+            padding-right: 2vw;
+            height: 390px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            flex-wrap: nowrap;
+            gap: 10px;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+    
+    @media (max-width: 1024px) {
+        .carousel-item {
+            height: 40vh;
+            }
+            
+            .carousel-item img {
+               height: 100%;
+                /* permet de fiter l'image au conteneur */
+                object-fit: cover;
+                /* pour que l'image fit avec le conteneur */
+                margin: auto;
+                /* pour centrer */
+            }
+    }
+    @media (max-width: 768px) {
+        .carousel-item {
+            height: 30vh;
+            }
+            
+            .carousel-item img {
+               height: 100%;
+                /* permet de fiter l'image au conteneur */
+                object-fit: cover;
+                /* pour que l'image fit avec le conteneur */
+                margin: auto;
+                /* pour centrer */
+            }
+    }
+    @media (max-width: 425px) {
+        .carousel-item {
+            height: 20vh;
+            }
+            
+            .carousel-item img {
+               height: 100%;
+                /* permet de fiter l'image au conteneur */
+                object-fit: cover;
+                /* pour que l'image fit avec le conteneur */
+                margin: auto;
+                /* pour centrer */
+            }
+    }

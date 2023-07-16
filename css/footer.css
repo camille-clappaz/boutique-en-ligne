@@ -1,0 +1,122 @@
+footer{
+width:100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #E6D9D1;
+}
+.footers{
+    width:100%;
+}
+
+.footerP1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2vh;
+    padding-right: 2vh;
+
+}
+
+.footerP1 div {
+    text-align: center;
+}
+/* Partie 2 du FOOTER */
+.footerP2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerP2 div {
+    text-align: center;
+}
+.reseaux a{
+    color:black;
+}
+#catFooter {
+    text-align: left;
+    /* column-count: 2; */
+}
+
+#inputNews,
+#buttonNews {
+    border: none;
+    background-color: transparent;
+}
+
+.newsletter {
+    width:80%;
+    margin: auto;
+    text-align: center;
+    border-bottom: solid;
+}
+.footerP2 a{
+    text-decoration: none;
+    color:black;
+}
+.reseaux {
+    display: flex;
+    justify-content: space-between;
+}
+/* Partie 3 du FOOTER */
+.footerP3 {
+    max-width: 100%;
+    text-align: center ;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    background-color: white;
+}
+.footerP3 a{
+    color: #dbc6b9;
+}
+@media screen and (max-width: 932px){
+    footer{
+        font-size:small;
+    }
+    footer h2{
+        font-size: large;
+    }
+    .logoFooter{
+        height: 15vh;
+        width: auto;
+    }
+}
+@media screen and (max-width: 750px){
+    footer{
+        font-size:smaller;
+        
+    }
+    footer h2{
+        font-size: small;
+    }
+    .footerP2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 2vh;
+    }
+    .logoFooter{
+        height: 10vh;
+        width: auto;
+    }
+}
+@media screen and (max-width: 530px){
+    .logoFooter{
+        height: 5vh;
+        width: auto;
+    }
+}
+@media screen and (max-width: 465px){
+    .footerP2 p{
+        max-width: fit-content;
+    }
+    .reseaux i {
+        font-size: small;
+    }
+    .footerP2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 1vh;
+    }
+
+}

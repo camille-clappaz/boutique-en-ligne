@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #imageProfil {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .editprofil {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .editprofil .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f5d0b9;
+    color: rgb(0, 0, 0);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .editprofil .button:last-child {
+    margin-right: 0;
+  }
+  
+  h3 + form {
+    margin-top: 10px;
+  }
+  
+  h3 + form input[type="submit"] {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: f5d0b9;
+    color: rgb(0, 0, 0);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #adresse {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="submit"], .buttonAdresse {
+  background-color: #f5d0b9;
+  padding: 8px 16px;
+  filter: contrast(115%);
+  color: rgb(0, 0, 0);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #f5d0b9;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.commande {
+  display: flex;
+  gap: 10px;
+}
+
+.produit {
+  position: relative;
+}
+
+.badgeqtt {
+  position: absolute !important;
+  background-color: white !important;
+  border: 1px solid black !important;
+  border-radius: 9999px !important;
+  color: black !important;
+  padding: 0 5px !important;
+}

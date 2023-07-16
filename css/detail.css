@@ -1,0 +1,47 @@
+#detail {
+    width: 100%;
+    display: flex;
+    gap: 3vw;
+    padding: 2vw;
+}
+
+.titreDetail {
+    font-size: smaller;
+}
+
+#titrePrix {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prixDetail {
+    font-size: xx-large;
+}
+
+#ajouterPanier {
+    width: 100%;
+    height: 5vh;
+    background-color: #e6d9d1;
+    border: none;
+
+}
+
+#infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .prixDetail, .nomDetail {
+        font-size:large;
+    
+    }
+}
+@media screen and (max-width: 768px) {
+   #detail img{
+    max-width:30%;
+    height: 80%;
+   }
+    
+}
